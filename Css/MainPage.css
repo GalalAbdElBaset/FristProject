@@ -32,6 +32,12 @@
     box-shadow: 0px 0px 30px 10px #d9d7d7;
 }
 
+@media (max-width : 768px){
+    .container {
+        background-color: red;
+    }
+}
+
 .pd-y {
     padding: 120px 0 0 0;
 }
@@ -53,7 +59,7 @@ header {
     z-index: 1;
     background-color: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    height: 125px;
+    height: 110px;
     font-weight: 900;
 }
 
@@ -74,11 +80,11 @@ header {
 
 .content-header  .header-item-image {
     display: flex;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     position: absolute;
     z-index: 1;
-    top: 10px;
+    top: 13px;
 }
 
 .content-header .header-item  img {
@@ -102,7 +108,7 @@ header {
     transition: background-color .7s , color .7s;
     font-weight: bold;
     position: relative;
-    top:48px;
+    top:40px;
     border-radius: 10px;
 }
 
@@ -559,10 +565,8 @@ iframe {
     margin: 0 5px;
     vertical-align: middle;
     transition: color .5s , text-decoration .5s ,  text-shadow .5s;
-    -webkit-transition: color .5s , text-decoration .5s ,  text-shadow .5s;
-    -moz-transition: color .5s , text-decoration .5s ,  text-shadow .5s;
-    -ms-transition: color .5s , text-decoration .5s ,  text-shadow .5s;
-    -o-transition: color .5s , text-decoration .5s ,  text-shadow .5s;
+
+
 }
 
 .footer-bottom-links a:hover ,
