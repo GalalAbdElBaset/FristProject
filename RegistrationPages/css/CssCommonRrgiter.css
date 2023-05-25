@@ -63,25 +63,34 @@ form {
 
 .content-form .data-line1,
 .content-form .data-line2{
-    display: flex;   
-    align-items: baseline;
-    justify-content: space-evenly;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    flex-direction: column;
 }
 
 .data-line1 {
-    margin: 4% 0  10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 4% 0  0px;
+    width: 100%;
 }
 
+.item-data-lin1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
 .input-data {
     border: 0;
     outline: 0;
-    width: 35%;
+    width: 34%;
     height: 35px;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 15px;
-    font-size: 18.5px;
+    font-size: 17px;
     /* background-color: #d7ede2; */
 }   
 
@@ -122,7 +131,6 @@ form {
 
 .checkbox {
     border-radius: 5px;
-    font-size: 18px;
 }
 
 .groubcheck , .button-reg{
@@ -166,13 +174,8 @@ input[type="submit"] ,input[type="reset"] {
     outline: 0;
     cursor: pointer;
     border-radius: 5px;
-    font-weight: bold;
     text-align: center;
     transition: box-shadow .5s ,background-color .5s ,color .5s ;
-    -webkit-transition: box-shadow .5s ,background-color .5s ,color .5s ;
-    -moz-transition: box-shadow .5s ,background-color .5s ,color .5s ;
-    -ms-transition: box-shadow .5s ,background-color .5s ,color .5s ;
-    -o-transition: box-shadow .5s ,background-color .5s ,color .5s ;
 }
 
 input[type="submit"]:hover,
